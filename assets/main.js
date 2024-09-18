@@ -35,8 +35,9 @@ $(".back-to-top").click(function () {
 */
 var typed = new Typed(".typejs", {
   strings: [
-    "Data Analyst " ,
-    "Android App Developer " ,
+    "I am Data Analyst " ,
+    "I am Problem Solver",
+    "I am fullstack Developer " ,
  
     
   ],
