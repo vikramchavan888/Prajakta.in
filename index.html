@@ -1,246 +1,336 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 
 <head>
+
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Prajakta Satpute">
+  <meta name="title" content="Prajakta Satpute | PORTFOLIO">
+  <meta name="description"
+    content="Prajakta Satpute, a Computer Science and Engineering student with a passion for developing innovative software solutions. I specialize in Android App Development and Full Stack Web Development, and have experience working with technologies such as Kotlin, nodejs, Python, HTML, CSS, JavaScript, and Firebase.">
+  <meta name="theme-color" content="#7952b3">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="3 days">
+  <meta property="og:title" content="Prajakta Satpute| PORTFOLIO" />
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Prajakta Satpute">
+  <meta property="og:description"
+    content="I'm Prajakta Satpute, a Computer Science and Engineering student with a passion for developing innovative software solutions. I specialize in Android App Development and Full Stack Web Development, and have experience working with technologies such as Kotlin, nodejs, Python, HTML, CSS, JavaScript, and Firebase." />
 
-  <title>Prajakta Satpute</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <link rel="shortcut icon" type="x-icon" href="assets/img/Profile-icon.PNG">
+  <!--noscript tag -->
+  <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+  <!-- Bootstrap CSS CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!--fontawesome link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Animate on scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!--Lightbox css link-->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+
+
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- flickity css crousel link -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!--Main CSS File -->
+  <link href="./assets/style.css" rel="stylesheet">
 
+  <!--Page title-->
+  <title>Prajakta Satpute | PORTFOLIO</title>
+  <link rel="icon" href="./assets/images/icon.jpg" type="image/icon">
 
 </head>
 
 <body>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
+  <!--navbar-->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="./assets/images/icon.PNG" alt="logo" width='30'
+          style="border-radius: 50%;" loading="lazy"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-angle-down " aria-hidden="true"></i>
+      </button>
 
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Academic Projects</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Prajakta Satpute</h1>
-      <p>I'm <span class="typed" data-typed-items="Data Analyst , Problem Solver , Developer"></span></p>
-      <div class="social-links">
-        <a href="" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.facebook.com/prajakta.satpute.186" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/prajaktas_30/?igsh=MWIwZHBoaDZ1ZnVsNw%3D%3D" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/prajakta-satpute-26678020a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#about"><i class="fa fa-user" aria-hidden="true"></i>ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume"><i class="fa fa-file" aria-hidden="true"></i>RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects"><i class="fa fa-th" aria-hidden="true"></i>PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i>CONTACT</a>
+          </li>
+        
+        </ul>
       </div>
+    </nav>
+  </header>
+  <!--navbar end-->
+
+  <!--home section-->
+  <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="home-container" data-aos="fade-in">
+      <h1>Prajakta Satpute</h1>
+      <p><span class="typejs"></span></p>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!--home section end-->
 
-  <main id="main">
+  <!--main section-->
+  <main id='main'>
 
-    <!-- ======= About Section ======= -->
+    <!--about section-->
     <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
           <h2>About</h2>
-          <p>Data Analyst with experience of developing robust code for high-volume business and web applications for product based enterprises.</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/Profile-icon.PNG" class="img-fluid" alt="">
+          <div class="col-lg-4 text-center" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-delay="100">
+            <img src="./assets/images/desktop-pic.png" class="img-fluid about-dp" alt="Arwaz's picture" loading="lazy">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Data Analyst.</h3>
-            <p class="fst-italic">Currently i am working as a  Software Programmer in NEML</p>
-            <div class="row">
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-easing="ease-in-sine"
+            data-aos-delay="100">
+            <p class="font-italic text-justify">
+              Welcome to my website!
+
+              Proficient in Java and Angular, with 2 years of hands-on experience. Committed to delivering efficient
+              solutions through innovative problem-solving and continuous learning.
+            </p>
+            <div class="row"></div>
               <div class="col-lg-6">
                 <ul>
               
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91-9607225963</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Mumbai, Maharashtra</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Open to work:</strong> <span>Actively applying</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Exp:</strong> <span>2.8 Years</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's in Engineering</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>prajaktasatpute2722003@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>prajaktasatpute2722003@gmail.com</li>
                   
                 </ul>
               </div>
-            </div>
-            <p>
-             <!-- ======= Facts Section ======= -->
-            </p>
+            <p class="font-italic text-justify"></p>
+            <p style="font-weight:bold;">👉 See My Certificates, Badges and Swags etc... <a 
+                href="" target="_black" style="color: #7952b3; font-weight:bold;">🔗Click
+                here!</a>
+            </p> </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!--about section end-->
 
-    <!-- ======= Facts Section ======= -->
-   <!-- <section id="facts" class="facts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Awards</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> End Facts Section -->
+    <!--Skills Section-->
     <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Skills</h2>
+      <div class="container">
+        <div class="section-title" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <h3>Tech & Tools</h3>
         </div>
-        <div class="row skills-content">
-          <div class="col-lg-6">
-            <div class="progress">
-              <span class="skill">Java <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Spring boot <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Spring MVC <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Microservices <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">MySQL <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">C++ <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+        <div class="main-carousel-skill">
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/python.svg" alt="Python logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
           </div>
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">Angular <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-            <span class="skill">NodeJs <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div> 
-
-            <div class="progress">
-              <span class="skill">Jquery <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">svn <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">git <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/c.svg" alt="C logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/cpp.svg" alt="C++ logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/html5.svg" alt="HTML5 logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/css3.svg" alt="CSS3 logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/js.svg" alt="JavaScript logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/php.svg" alt="PHP logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/mysql.svg" alt="MYSQL logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/bootstrap.svg" alt="Bootstrap logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/github.svg" alt="GitHub logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/git.svg" alt="git logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <!--<div class="carousel-cell">
+            <img src="./assets/images/skills_image/java.svg" alt="java logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>-->
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/kotlin.svg" alt="kotlin logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/jetpack_compose.svg" alt="Jetpack Compose logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/xml.svg" alt="xml logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/firebase.svg" alt="firebase logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <!--<div class="carousel-cell">
+            <img src="./assets/images/skills_image/jquery.svg" alt="jquery logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/json.svg" alt="json logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/django.svg" alt="django logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/flask.svg" alt="flask logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>-->
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/vscode.svg" alt="vscode logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/android-studio.svg" alt="android logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/figma.svg" alt="figma logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/canva.svg" alt="canva logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <!--<div class="carousel-cell">
+            <img src="./assets/images/skills_image/adobeXD.svg" alt="adobe xd logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>-->
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/Whimsical.svg" alt="Whimsical logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/photoshop.svg" alt="photoshop logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="100">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/blender.svg" alt="blender logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="110">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/autocad.svg" alt="autocad logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/Scilab.png" alt="scilab logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/unity.svg" alt="unity logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/heroku.svg" alt="heroku logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/netlify.svg" alt="netlify logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/chrome.svg" alt="chrome logo" data-aos="fade-left"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/nodejs.svg" alt="nodejs logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="120">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/postman.svg" alt="postman logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="130">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/appscript.svg" alt="appscript logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="140">
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/images/skills_image/iot.png" alt="iot logo" data-aos="fade-right"
+              data-aos-easing="ease-in-sine" data-aos-delay="150">
           </div>
         </div>
-      </div>
-    </section><!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title"><h2>Resume</h2></div>
+    </section>
+    <!--Skills Section end-->
+
+    <!--resume section-->
+    <section id='resume' class="resume">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <h2>RESUME</h2>
+          <p class="text-justify">
+            <strong style="text-decoration: underline; font-variant: small-caps;">Career Objective :</strong> Seeking a
+            challenging role at a reputed IT organization to utilize my engineering skills that can contribute to the
+            company's growth as well as enhance my knowledge by exploring new things.
+          </p>
+        </div>
+        <div class="btn-download float-center" data-aos="zoom-in-up" data-aos-easing="ease-in-sine"
+          data-aos-delay="100">
+          <a class="btn btn-outline-secondary" href=""
+            download>Download Resume</a>
+        </div>
+
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
               <h4>Prajakta Satpute </h4>
@@ -253,34 +343,29 @@
                 <li>prajaktasatpute2722003@gmail.com</li>
               </ul>
             </div>
-
             <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
+            <div class="resume-item ">
               <h4>B.E in Electronics and Communication Engineering</h4>
-              <h5>2018-2022</h5>
+              <h5>2018 - 2022</h5>
               <p><em>Yeshwantrao Chavan College of Engineering, Nagpur - (8.15 cgpa)</em></p>
-              <p></p>
             </div>
-            <div class="resume-item">
-              <h4>12th (HSC)</h4>
-              <h5>2017-2018</h5>
-              <p><em>Maharashtra State Board - XII (76.46%) </em></p>
-              <p></p>
+            <div class="resume-item ">
+              <h4>12th (HSC) </h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Maharashtra State Board - XII (76.46%)</em></p>
             </div>
             <div class="resume-item">
               <h4>10th (SSC)</h4>
               <h5>2015-2016</h5>
-              <p><em>Maharashtra State Board - X (93%)
-              </em></p>
-              <p></p>
+              <p><em>Maharashtra State Board - X (93%)</em></p>
             </div>
           </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
 
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title">Work Experience</h3>
             <div class="resume-item">
-              <h4>Software Programmer</h4>
-              <h5>2022-2024</h5>
+              <h4>Full Stack Developer</h4>
+              <h5>Jan 2022 -  Apr 2024</h5>
               <p><em>Nagpur, Maharashtra </em></p>
               <ul>
                 <li>As a full-stack developer at NeML, I had the opportunity to work with a diverse range of technologies,
@@ -297,158 +382,543 @@
                   projects and was assigned new screens from frontend to backend, along with related bugs and issues, to
                   improve my understanding.  </li> <li>Through this experience, I gained valuable insights into how corporate
                   culture operates.</li>
-              
-    
-    
                
               </ul>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!--resume section end-->
+
+    <!--Project section-->
+    <section id='projects' class="projects">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="150">
+          <h2>PROJECTS</h2>
+          <p>You can find more projects on my <a href="https://github.com/arwazkhan189" target="_blank"
+              style="text-decoration: none;color: #7952b3;" title="Click!"><strong><i class="fa fa-github"></i>
+                Github</strong></a>.
+          </p>
+        </div>
+
+        <div class="main-carousel-project">
+          <div class="carousel-cell">
+            <!--card 1 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/ccqlogo.jpg" alt="Captain Cricket Quiz logo"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>Captain Cricket Quiz</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-4" style="opacity: 0.7;"><i class="fa fa-microphone" aria-hidden="true"></i> Ask Your
+                      Assistant<br><b style="text-decoration: underline;">Talk to Captain Cricket Quiz</b></p>
+                    <p>Captain Cricket Quiz is a Google assistant action created by using Google Sheets and Google
+                      Action
+                      Console. <br> Files available in <a
+                        href="https://github.com/arwazkhan189/CCQ-Google-assistant-action" target="_blank"
+                        style="color:#fff; text-decoration:underline;"><i class="fa fa-github"></i>Github</a>.</p>
+                    <div class="card-btn py-2">
+                      <a class="btn btn-outline-secondary"
+                        onclick='swal("Oops!", "The program is no longer available in Google Assistant, But you can use this file to make your own trivia game (Checkout GitHub Repository).", "info",{buttons: ["Close", false],});'
+                        target="_blank">Go To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 1  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 2 -->
+            <div class="col py-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="200">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/HID-2020logo.png" alt="HID-2020 logo"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>HID-2020</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-4" style="opacity: 0.7;"><img src="./assets/images/project_image/flag.svg" alt='flag'
+                        style="width: 30px;" loading="lazy"> <b style="text-decoration: underline;">Happy Independance
+                        Day 2020</b></p>
+                    <p>HID 2020 (Happy Independence Day 2020 Animation) is a Python program built using the turtle
+                      module.
+                    </p>
+                    <div class="card-btn py-2">
+                      <a class="btn btn-outline-secondary" href="https://github.com/arwazkhan189/HID-2020"
+                        target="_blank">Go To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 2 end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 3 -->
+            <div class="col py-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="300">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/portfolio.jpg" alt="PORTFOLIO Webite"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>Portfolio Website</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-4" style="opacity: 0.7;"><i class="fa fa-user" aria-hidden="true"></i> <b
+                        style="text-decoration: underline;">Portfolio Website</b></p>
+                    <p>I created this website using HTML, CSS, JavaScript, Bootstrap, JQuery library, and many more...
+                      <br>You Can find the code in my Github profile. Click the below button.
+                    </p>
+                    <div class="card-btn py-2">
+                      <a class="btn btn-outline-secondary" href="https://github.com/arwazkhan189/arwazkhan189.github.io"
+                        target="_blank">Go To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 3 end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 4 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/weatherwebapp.png" alt="Weather Web App interface "
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>Weather Web App</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-4" style="opacity: 0.7;"><img src="./assets/images/project_image/weathericon.png"
+                        alt='weather app icon' style="width: 30px;" loading="lazy"> <b
+                        style="text-decoration: underline;">Weather Web
+                        App</b></p>
+                    <p>A simple weather web app created using HTML, CSS, JavaScript, and openweather API.
+                      <br> Code available in <a href="https://github.com/arwazkhan189/Weather-app" target="_blank"
+                        style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn py-2">
+                      <a class="btn btn-outline-secondary" href="https://arwazkhan189.github.io/Weather-app/"
+                        target="_blank">Go To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 4  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 5 -->
+            <div class="col py-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="200">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/horoscopewebapp.jfif" alt="Horoscope Web App icon"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>Horoscope Web App</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-4" style="opacity: 0.7;"><img src="./assets/images/project_image/horoscopewebapp.jfif"
+                        alt='Horoscope web icon' style="width: 30px;" loading="lazy">
+                      <b style="text-decoration: underline;">Horoscope Web App</b>
+                    </p>
+                    <p>A simple Horoscope web app created using HTML, CSS, JavaScript, and aztro API.
+                      <br> Code available in <a href="https://github.com/arwazkhan189/Horoscope-app" target="_blank"
+                        style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn py-2">
+                      <a class="btn btn-outline-secondary" href="https://arwazkhan189.github.io/Horoscope-app/"
+                        target="_blank">Go To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 5 end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 6 -->
+            <div class="col py-2" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="300">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/trpws.png" alt="TRPWS Webite"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>TRPWS Website</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-4" style="opacity: 0.7;"><i class="fa fa-globe" aria-hidden="true"></i> <b
+                        style="text-decoration: underline;">TRPWS Website</b></p>
+                    <p>I created a website using HTML, CSS, JavaScript, Bootstrap, JQuery library, etc... for the TRPWS
+                      Organization.<br> I worked with a team as an Intern here.
+                      <br>Source Code available in <a href="https://github.com/arwazkhan189/trpwsweb" target="_blank"
+                        style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn py-2">
+                      <a class="btn btn-outline-secondary" href="https://arwazkhan189.github.io/trpwsweb/index.html"
+                        target="_blank">Go To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 6 end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 7 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/SPACE-INVADERS.png" alt="SPACE-INVADERS poster"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>SPACE INVADERS - PC GAME</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-4" style="opacity: 0.7;"><img
+                        src="./assets/images/project_image/space-invaders-icon.png" alt='SPACE INVADERS GAME icon'
+                        style="width: 30px;" loading="lazy"> <b style="text-decoration: underline;">SPACE
+                        INVADERS - PC GAME</b></p>
+                    <p>Space Invaders is a shooting game developed using pygame (python).
+                      <br><br> Source Code available in <a href="https://github.com/arwazkhan189/SPACE-INVADERS"
+                        target="_blank" style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn py-2">
+                      <a class="btn btn-outline-secondary" href="https://arwazkhan189.github.io/SPACE-INVADERS/"
+                        target="_blank">Download the Game</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 7  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 8 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/YTVD.gif" alt="YTV-Downloader"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>YTV-Downloader</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-2" style="opacity: 0.7;"><img src="./assets/images/project_image/ytvdicon.png"
+                        alt='YTV-Downloader icon' style="width: 30px;" loading="lazy"> <b
+                        style="text-decoration: underline;">YTV-Downloader</b></p>
+                    <p>YTV-Downloader is a Desktop application to download the YouTube videos . <br> Developed using
+                      python modules - tkinter and pytube.
+                      <br><br> Source Code available in <a href="https://github.com/arwazkhan189/YTV-Downloader"
+                        target="_blank" style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn">
+                      <a class="btn btn-outline-secondary"
+                        href="https://github.com/arwazkhan189/YTV-Downloader/blob/main/YTV-Downloder.rar?raw=true">Download
+                        the App</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 8  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 9 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/foodrunner.png" alt="FoodRunner-Android App"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>FoodRunner Android App</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-2" style="opacity: 0.7;"><img
+                        src="./assets/images/project_image/foodrunner_icon_round.png" alt='foodrunner icon'
+                        style="width: 30px;" loading="lazy"> <b style="text-decoration: underline;">FoodRunner-Android
+                        App</b></p>
+                    <p>FoodRunner Android App is a basic Food Ordering app like zomato , swiggy, etc.
+                      This app is developed using android studio and Kotlin.
+                      <br><br> Source Code available in <a href="https://github.com/arwazkhan189/FoodRunner-AndroidApp"
+                        target="_blank" style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn">
+                      <a class="btn btn-outline-secondary"
+                        href="https://github.com/arwazkhan189/FoodRunner-AndroidApp/blob/master/app/release/app-release.apk?raw=true">Download
+                        the App</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 9  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 10 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/hostelmate.png" alt="HostelMate-Android App"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>HostelMate Android App</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-2" style="opacity: 0.7;"><img src="./assets/images/project_image/hostelmateicon.png"
+                        alt='HostelMate icon' style="width: 30px;" loading="lazy"> <b
+                        style="text-decoration: underline;">HostelMate-Android App</b></p>
+                    <p>HostelMate - A Need For Hosteler (An Android App that helps students to find the best resource
+                      like hostels and tiffin centers etc.)
+                      <br><br> Source Code available in <a href="https://github.com/arwazkhan189/HostelMate"
+                        target="_blank" style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn">
+                      <a class="btn btn-outline-secondary"
+                        onclick='swal({title: "HostelMate apk downloading...",text: "Some features not working at this time. I am working on it.😊",icon: "success"});'
+                        href="https://github.com/arwazkhan189/HostelMate/raw/master/app/release/app-release.apk">Download
+                        the App</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 10  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 11 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/edroomlogo.png" alt="EdRoom-Android App"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>EdRoom Android App</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-2" style="opacity: 0.7;"><img src="./assets/images/project_image/edroomlogo.png"
+                        alt='EdRoom icon' style="width: 30px;" loading="lazy"> <b
+                        style="text-decoration: underline;">EdRoom-Android
+                        App</b></p>
+                    <p>EdRoom is an educational platform that provides functionalities like Attendance, Doubt Resolve
+                      facility, Notice Board and Resources like Course, Study Materials etc...
+                      <br><br> Source Code available in
+                      <a href="https://github.com/arwazkhan189/EdRoom" target="_blank"
+                        style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn">
+                      <a class="btn btn-outline-secondary" target="_blank"
+                        href="https://arwazkhan189.github.io/EdRoom/">Download
+                        the App</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 11  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 12 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/abgec.jpg" alt="ABGEC-Website"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>ABGEC-Website</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-2" style="opacity: 0.7;"><img src="./assets/images/project_image/abgecicon.png"
+                        alt='ABGEC icon' style="width: 30px;" loading="lazy"> <b
+                        style="text-decoration: underline;">ABGEC-Website</b></p>
+                    <p>This website is made for the Alumni’s organization of our college for many purpose like
+                      registering alumni’s in one place, connecting alumni’s, sharing glimpses, Uploading events, and
+                      many more. It has 200+ registration till date.
+                      <br> Source Code available in
+                      <a href="https://github.com/ABGEC/abgec" target="_blank"
+                        style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn">
+                      <a class="btn btn-outline-secondary" target="_blank" href="https://abgec.in/">Go To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 12  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 13 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/resume2hire.jpg" alt="Resume2Hire Website"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>Resume2Hire WebApp</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-2" style="opacity: 0.7;"><img src="./assets/images/project_image/resume2hire.jpg"
+                        alt='Resume2Hire icon' style="width: 30px;" loading="lazy"> <b
+                        style="text-decoration: underline;">Resume2Hire WebApp</b></p>
+                    <p>Features: Resume Builder, Screening the Resume with the given Job Description using the NLP
+                      technique, providing a platform for recruiters to post the Job openings in their company and for
+                      Job seekers to apply for the Job openings.
+                      <br> Source Code available in
+                      <a href="https://github.com/arwazkhan189/Resume2Hire" target="_blank"
+                        style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn">
+                      <a class="btn btn-outline-secondary" target="_blank" href="https://resume2hire.onrender.com/">Go
+                        To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 13  end-->
+          </div>
+          <div class="carousel-cell">
+            <!--card 14 -->
+            <div class="col py-2 " data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./assets/images/project_image/healthiq.jpg" alt="HealthIQ Website"
+                      style="width:300px;height:300px;" loading="lazy">
+                    <h5>HealthIQ WebApp</h5>
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="py-2" style="opacity: 0.7;"><img src="./assets/images/project_image/healthiq.jpg"
+                        alt='HealthIQ icon' style="width: 30px;" loading="lazy"> <b
+                        style="text-decoration: underline;">HealthIQ WebApp</b></p>
+                    <p>This project uses IoT and machine learning to detect food spoilage and provide personalized diet
+                      and workout recommendations, promoting healthy habits and an active lifestyle.
+                      <br> Source Code available in
+                      <a href="https://github.com/arwazkhan189/HealthIQ" target="_blank"
+                        style="color:#fff; text-decoration:underline;" title="Click to see!"><i
+                          class="fa fa-github"></i>Github</a>.
+                    </p>
+                    <div class="card-btn">
+                      <a class="btn btn-outline-secondary" target="_blank" href="https://healthiq.onrender.com/">Go
+                        To</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card 14  end-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--project section end-->
+
+    <!--Contact section-->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-delay="100">
+          <h3>Connect to me on</h3>
+        </div>
+        <a href="https://www.linkedin.com/in/prajakta-satpute-26678020a/" target="_blank" data-aos="fade-right"
+          data-aos-easing="ease-in-sine" data-aos-delay="140"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAYFBMVEUAd7X///8Ac7NGlMRGk8QAdrUAbLAAbrDZ7PXV6fPy+fw9ir/p9Pkugbo0hr3D2umz0ORUnMh3q9C72eplocoIe7dsps6dxN6lyeCDs9TL4u+WwNzg7vVTmMYhg7uy1OcLxWtDAAABaklEQVRIie3W7Y6CMBAFUBxohwIK8qEIgu//lltou7TortNu9p83MRGSIzgzlEaHwETyU51jr5wrBWsODDzCgNcLrHjkHV5JOIE/hEnCOATGEiYhMHGgLBELgdi1lxlJ1IH8uvS17CjShtiriRCekM1mlm7oBaE2sCEMhA1vBg5+kCUG9n63GmGqXJYTqmNDlhcrrAkXdPsIx3FI+4TidpPDkHNOm7ndrP6U9TH/5VZxDewPsEvaS5t0CK8h9qXKSd4tq9T3EaC73rOl2EVp/X0bcqcddzMMU7YtbFuHHShsqH+lnJwlsUIqFIW7mLZAhPuYOfaGh5nR4fBotgLVQIWik+PE+11h38NCLUGmV+Ypfw9HdQU0j/lAhfr9AKafggizXHc81/VJibA4qvKzk4HE4nzgB/4jfLU8UiA26RqxQn0wfEOhTjTPMEIdZh9EOsw9QXzpPOdvMHgTGLztDN7oBm+twzfzYfkCChobmnKthiYAAAAASUVORK5CYII=" alt="Hackerrank logo" title="Hackerrank"
+            loading="lazy"></a>
+
+        <a href="https://dev.to/arwazkhan189" target="_blank" data-aos="fade-left" data-aos-easing="ease-in-sine"
+          data-aos-delay="160"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAY1BMVEX///8AAAD5+fnk5OSRkZFQUFBxcXHZ2dksLCzExMTu7u7f39/29vZ8fHzo6OjLy8u8vLyzs7NBQUGYmJhKSkpjY2MYGBjT09M5OTmsrKyEhISmpqZcXFwTExOKiopVVVUkJCSS2/+7AAACIElEQVRIiZ2W54KDIAyACVitq+7Rdd77P+UpMiIyes2vpuSDLIKEOISyZJoSRl3rVqmiCyi5RNVn1BTDSeIpiNXXM7bJtfaf5sA46jm1dGOblA6MjX4OYGQ2Lg1hm6RnrvmEA2i+5E5k9SkHcGiH7HMOIEPgLHfL763d+tIwmb1Zc53467opua3leB1+hdadHH3set5C/2jShLEkbR49tLnRH9LZQf5xl1sdLpNS7tJuEAcoj05FcpVsd0HHdPeD6kSIN7XQOXB1MTFiBChW9Ymy5weR4XNVe61aWhgLugb9mjNULT+HswEUd2kWAlFnVijEV4gj5IWC1KkKFGMTXZASbZKEwQS5N6vftzB4U8YzGb8DR1TVf4FA3t/F+CZ6dvuHPJdaGV+JfpeiMBgp4wtqozkM6oEUo03C2UEtFyG34ScE/mjbGmeYX0+PoCu/eafrsUbsFfS+v1f1gfbx3sgBGW6DNEE6tM4EsRnb8WbhLdBHYsPSirLjY81H/p7XdcBlIoa2qzI0kWlWdeaDIpqMX5CB4iieGuzgJKNYStXxcqXHbvYnUE3DBYS3cnId+r02uUUticoyNToP8+5mgqhPUnnk+rJ0T+PbrTC4w9jeu9BeRHrkjI7mCR2t5BEczGWRoOpGCc3d4GJyx1akLvB03iZRGHRMF/3+FHbQ+alMYx8Y+77P88UFLrmLkWi5328k6yUoQxiXyZg9he2j+g9XjBQ+RkOnvAAAAABJRU5ErkJggg==" alt="Dev logo"
+            title="Dev.to" loading="lazy"></a>
+
+        <a href="https://www.facebook.com/prajakta.satpute.186" target="_blank" data-aos="zoom-in" data-aos-easing="ease-in-sine"
+          data-aos-delay="170"><img src="data:image/jpeg;base64,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"
+            alt="Google Developer profile logo" title="Google Developer profile" loading="lazy"></a>
+
+        <a href='https://www.instagram.com/prajaktas_30/?igsh=MWIwZHBoaDZ1ZnVsNw%3D%3D'
+          target="_blank" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="170"><img
+            src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-logo-icon-download-in-svg-png-gif-file-formats--social-media-pack-logos-icons-1583142.png?f=webp&w=256" alt="Qwicklabs logo"
+            title="Qwicklab's profile" loading="lazy"></a>
+
+
 
       </div>
     </section>
+    <!--contact section end-->
 
-    <!-- ======= Portfolio Section ======= -->
-       <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
+  </main>
+  <!--main section end-->
 
-        <div class="section-title">
-          <h2>ACADEMIC PROJECTS</h2>
-        </div>
-
-        <div class="row">
-
-         
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                </svg>
-                <i class="bx bx-layer"></i>
-              </div>
-              <h4><a href="">Automated Development Rights Transfer System (ADRTS)
-              </a></h4>
-              <p>Creates Development Right Certificate (DRC) of land which will eligible for trading and self utilization.
-                Trading Platform- providing multiple price discovery mechanisms.</p>
-                <p>Tech-Stack : Java | Spring boot | Angular 8</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-red">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                </svg>
-                <i class="bx bx-slideshow"></i>
-              </div>
-              <h4><a href="">Emission Permit Trading System (EPTS)
-              </a></h4>
-              <p>Emissions trading is a market-based approach to control pollution.
-                Performed screen development & experienced enhancement in Government projects domain.</p>
-                <p>Tech-Stack : Java| Angular js| Javascript</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-pink">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                </svg>
-                <i class="bx bx-tachometer"></i>
-              </div>
-              <h4><a href="">Transferable Development Rights (TDR)</a></h4>
-              <p>Trading Platform- providing multiple price discovery mechanisms.
-                Trade fulfillment- completes trade related and all post auction activities.
-                Document management - Documentation and reports as required.</p>
-                <p>Tech-Stack : Java| Angular 14 | Typescript</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ======= Testimonials Section ======= -->
-  
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row mt-1">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Mumbai, Maharashtra</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>prajaktasatpute2722003@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91-9607225963</p>
-              </div>
-
-            </div>
-
-          </div>
-
-         
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Prajakta Satpute</h3>
-      <p>let's connect!</p>
-      <div class="social-links">
-        <a href="" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.facebook.com/prajakta.satpute.186" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/prajaktas_30/?igsh=MWIwZHBoaDZ1ZnVsNw%3D%3D" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/prajakta-satpute-26678020a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
- 
-    
+  <!--footer section-->
+  <footer id='footer' class="footer py-4">
+    <div class="footer-copyright text-center pt-1">
+      <i class="fa fa-copyright" aria-hidden="true">
+        <script>document.write(new Date().getFullYear());</script> | All rights reserved
+      </i><br>
+      <p style="font-size:14px">Designed with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="./#">Prajakta
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!--footer section end-->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper)-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!--go to top button-->
+  <a href="#" class="back-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+ 
+  <!--INITIALIZE AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!--typedjs file-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <!--lightbox js file-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+  <!--jquery easing file-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!--PageClip form js-->
+  <script src="https://s.pageclip.co/v1/pageclip.js"></script>
+
+  <!--Sweet Alert CDN-->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- flickity carousels js link- -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <!--Count Api link to count website views
+  <script async
+    src="https://api.countapi.xyz/hit/arwazkhan189.github.io/visits?callback=portfolioViews"></script>-->
+
+  <!--Main JS File -->
+  <script src="./assets/main.js"></script>
+
 
 </body>
 
