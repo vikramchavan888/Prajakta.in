@@ -35,11 +35,10 @@ $(".back-to-top").click(function () {
 */
 var typed = new Typed(".typejs", {
   strings: [
-    "Data Analyst " +
-    "Android App Developer " +
-    "<img src='./assets/images/skills_image/android-developer.svg' width='30px'>",
-    "Full Stack Developer " +
-    "<img src='./assets/images/skills_image/web-developer.svg' width='30px'>"
+    "Data Analyst " ,
+    "Android App Developer " ,
+ 
+    
   ],
   typeSpeed: 50,
   backSpeed: 50,
