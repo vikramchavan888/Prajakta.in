@@ -371,6 +371,8 @@ section {
 
 }
 
+
+
 @media (max-width: 768px) {
   .about-dp {
     content: url("./images/mobile-pic.PNG");
@@ -379,13 +381,15 @@ section {
     padding-left: 18%;
   }
   
+
+  
 }
 
 
 .skills img {
   width: auto;
   height: 50px;
-  margin-right: 50px;
+  margin-right: 42px;
   margin-bottom: 10px;
 }
 
