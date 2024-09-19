@@ -253,11 +253,9 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 section {
   padding: 40px 0;
   overflow: hidden;
@@ -270,6 +268,10 @@ section {
 .section-title {
   padding-bottom: 20px;
   padding-top: 10px;
+}
+
+.social{
+  padding-left: 40%;
 }
 
 .section-title h2 {
@@ -354,9 +356,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -368,27 +368,20 @@ section {
 
 .about-dp {
   height: 380px;
-  /*border: 1px solid rgba(0, 0, 0, 0.2);*/
-  /*box-shadow: 5px 10px 8px 10px #888888;*/
-  /*border-radius:100%;*/
+
 }
 
 @media (max-width: 768px) {
   .about-dp {
     content: url("./images/mobile-pic.PNG");
   }
+  .social{
+    padding-left: 18%;
+  }
+  
 }
 
-/*hiding github graph in small screen*/
-/*@media only screen and (max-width: 1026px) {
-  #hide-small-div {
-    display: none;
-  }
-}*/
 
-/*--------------------------------------------------------------
-#skills and places where I write
---------------------------------------------------------------*/
 .skills img {
   width: auto;
   height: 50px;
@@ -401,9 +394,7 @@ section {
   height: 30px;
 }
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -466,9 +457,7 @@ section {
   border: 2px solid #1887f0;
 }
 
-/*--------------------------------------------------------------
-# projects
---------------------------------------------------------------*/
+
 .projects p img {
   width: 380px;
 }
@@ -534,9 +523,6 @@ section {
   box-shadow: 1px 1px 1px 1px #fff;
 }
 
-/*--------------------------------------------------------------
-# contact
---------------------------------------------------------------*/
 .contact {
   padding-bottom: 30px;
 }
@@ -700,9 +686,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# footer
---------------------------------------------------------------*/
 .footer {
   background-color: #1887f0;
   color: white;
